@@ -1,0 +1,126 @@
+body{
+    background-color: #C0C0C0;
+}
+
+.container1{
+    background-image: linear-gradient(to bottom, #210635, #521864);
+    display: flex;
+    flex-direction: column;
+    height: 860px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: center;
+    color: #ffdf2c;
+    border-radius: 10px;
+}
+
+.p{
+    color: #FFFF;
+    margin-bottom: 0px;
+}
+
+.container2{
+    background-image: linear-gradient(to top, #210635, #521864);
+    height: 600px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.inputBox{
+    margin-top: 20px;
+}
+
+.inputUser{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.boxVotação{
+    display: flex;
+}
+
+.boxVotação1{
+    background-image: linear-gradient(to bottom, #1846b9, #051b50);
+    height: 350px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.boxVotação2{
+    background-image: linear-gradient(to bottom, #1846b9, #65abda);
+    height: 320px;
+    width: 280px;
+    margin: auto;
+}
+
+.botão{
+    background-color: #1a0827;
+    color: #FFFF;
+    border-radius: 10px;
+    height: 80px;
+    width: 150px;
+    font-size: large;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.pFinal{
+    color: #FFFF;
+    margin-top: 5px;
+}
+
+img{
+    width: 125px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+    .boxVotação{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container1{
+        height: 1600px;
+    }
+
+    .container2{
+        height: 1320px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .container1{
+        height: 1550px;
+    }
+
+    .container2{
+        height: 1300px;
+    }
+
+    .h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .inputUser{
+        width: 370px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 579px) {
+    .p{
+        font-size: small;
+    }
+}
