@@ -124,3 +124,38 @@ img{
         font-size: small;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .inputUser{
+        height: 30px;
+        width: 150px;
+    }
+
+    .container1{
+        height: 1390px;
+    }
+
+    .container2{
+        height: 1310px;
+        margin-top: 10px;
+    }
+
+    .boxVotação1{
+        height: 290px;
+        width: 150px;
+    }
+    
+    .boxVotação2{
+        height: 260px;
+        width: 120px;
+    }
+
+    .botão{
+        height: 40px;
+        width: 100px;
+    }
+
+    img{
+        width: 105px;
+    }
+}
